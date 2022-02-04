@@ -1,0 +1,217 @@
+@media screen and (min-width: 1200px){
+	.container{
+		max-width: 1200px;
+	}
+}
+@media screen and (max-width: 1600px){
+	.slider1-part1{
+		width: 575px;
+	}
+}
+@media screen and (max-width: 1320px){
+	.slider1-part1 {
+	    width: 300px;
+	}
+	.progress_counter {
+    	max-width: 500px;
+    }
+}
+@media screen and (max-width: 1199px){
+	.info_wrap{
+		margin: 0px 12px;
+	}
+	.info_wrap .icon img {
+    	width: 20px;
+    }
+    .info_wrap .info h4 {
+    	font-size: 14px;
+    }
+    .info_wrap .info p {
+    	font-size: 12px;
+    	line-height: 18px;
+    }
+    .slider_content{
+    	max-width: 75%;
+    	top: 25%;
+    }
+    .stand{
+    	top: 270px;
+    }
+    .windmill{
+    	top: 160px;
+    }
+    .stand1{
+    	top: 210px;
+    }
+    .windmill1{
+    	top: 30px;
+    }
+    .progress_counter {
+	    max-width: 460px;
+	    padding: 0px 15px;
+	}
+}
+@media screen and (max-width: 991px){
+	.main_menu{
+		min-height: auto;
+	}
+	.topbar_right_info{
+		display: none;
+	}
+	.navbar-toggler {
+    	display: block;
+	}
+	.search_mobile{
+	    display: block;
+	    border: none;
+	    flex: 1 auto;
+	    text-align: right;
+	}
+	.main_right_menu{
+		display: none;
+	}
+	.main_menu .navbar-nav{
+		border-left: none;
+	}
+	.main_menu .navbar-nav .nav-link{
+		border-right: none;
+		line-height: 40px;
+	}
+	.entry_content{
+		margin-top: 30px;
+		box-shadow: 0px 0px 10px #ddd;
+		margin-bottom: 0;
+	}
+	.entry_content .entry_item{
+		margin-bottom: 20px;
+	}
+	.entry_content .row > div:last-child .entry_item{
+		margin-bottom: 0;
+	}
+	.slider1-part1{
+		width: 0;
+	}
+	.about_right{
+		margin-top: 30px;
+	}
+	.who_we .video_wrapper{
+		height: 320px;
+	}
+	.full_width_row .info{
+		display: block;
+	}
+	.info-btn{
+		margin-top: 25px;
+	}
+	.search_wrap form {
+    	min-width: 100%;
+    	padding: 0px 15px;
+    }
+    .search_wrap form i{
+    	right: 25px;
+    }
+    .testimonial_slider .slick-prev,
+    .testimonial_slider .slick-next{
+    	top: 35%;
+    }
+    .testimonial_item .quote{
+    	max-width: 100%;
+    	padding: 45px 20px 20px;
+    }
+}
+@media screen and (max-width: 767px){
+	.slider_content{
+		top: 20%;
+		max-width: 100%;
+	}
+	.slider_content h6{
+		font-size: 10px;
+    	letter-spacing: 1px;
+	}
+	.slider_content h2{
+		font-size: 30px;
+	}
+	.slide-btn{
+		padding: 10px 25px;
+		font-size: 13px;
+	}
+	.stand,.windmill{
+		display: none;
+	}
+	.stand1{
+		top: 140px;
+		width: 28px;
+		right: 210px;
+	}
+	.windmill1{
+		top: 30px;
+		right: 105px;
+		width: 240px;
+	}
+	.entry_content .entry_item .icon {
+	    width: 50px;
+	    height: 50px;
+	    line-height: 45px;
+	}
+	.entry_content .entry_item .icon img {
+	    width: 25px;
+	}
+	.entry_content .entry_item .desc h3 {
+    	font-size: 16px;
+    }
+    .entry_content .entry_item .desc p {
+    	font-size: 12px;
+    }
+    .about_left h1{
+    	font-size: 28px;
+    	line-height: 34px;
+    }
+    .team_item{
+    	margin-bottom: 40px;
+    }
+    .contact_us .blue_left_Desc{
+	    padding: 60px 20px 50px;
+    }
+    .footer-content {
+	    margin-bottom: 40px;
+	}
+	.testimonial_slider .slick-prev, 
+	.testimonial_slider .slick-next {
+	    top: 15%;
+	}
+	.contribute .about_right .counter-box{
+		float: none;
+	}
+}
+@media screen and (max-width: 575px){
+	.slider_content {
+	    top: 10%;
+	    left: 5%;
+	}
+	.slider_content h2 {
+	    font-size: 24px;
+	}
+	.slide-btn{
+		margin: 0;
+	}
+    .about .about_right img{
+    	width: 100%;
+    }
+    .about_right .counter-box{
+    	position: unset;
+    }
+    .about_right .counter-box img{
+    	width: 100px;
+    }
+    .contact_us .blue_left_Desc{
+    	margin-top: 0;
+    }
+}
+@media screen and (max-width: 360px){
+	.entry_content {
+		padding: 30px 15px;
+	}
+	.slider_content h2 {
+	    font-size: 18px;
+	}
+}
